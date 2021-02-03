@@ -15,11 +15,11 @@
 # in the templates via {{ site.myvariable }}.
 title: Vinctus Blog
 author: Vinctus Technologies Inc.
-description: Minimal, responsive Jekyll theme for hackers.
+description: Build your ideas
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://shuttlecontrol.com/" # the base hostname & protocol for your site, e.g. http://example.com
 lang: en
-timezone: UTC
+timezone: EST
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -61,4 +61,3 @@ kramdown:
   footnote_nr: 1
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   toc_levels: 1..6
-
