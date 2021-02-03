@@ -15,7 +15,6 @@
 # in the templates via {{ site.myvariable }}.
 title: Vinctus Blog
 author: Vinctus Technologies Inc.
-avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 description: Build your ideas
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://shuttlecontrol.com/" # the base hostname & protocol for your site, e.g. http://example.com
@@ -52,7 +51,7 @@ excerpt_separator: "<!-- more -->"
 # Outputting
 permalink: /:year-:month-:day-:title/
 paginate_path: /posts/:num/
-paginate: 5
+paginate: 3
 
 # Markdown settings
 kramdown:
