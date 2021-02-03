@@ -46,7 +46,7 @@ plugins:
   - jemoji
   
 # Build settings
-markdown: kramdown-parser-gfm
+markdown: kramdown
 excerpt_separator: "<!-- more -->"
 
 # Outputting
