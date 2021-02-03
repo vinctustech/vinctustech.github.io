@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.author }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: whiteglass theme
+title: Vinctus Technologies Inc.
 author: Yous
 description: Minimal, responsive Jekyll theme for hackers.
 baseurl: "/" # the subpath of your site, e.g. /blog
@@ -45,11 +45,11 @@ plugins:
   - jekyll-sitemap
 
 # Build settings
-markdown: kramdown
+markdown: kramdown-parser-gfm
 excerpt_separator: "<!-- more -->"
 
 # Outputting
-permalink: /:year/:month/:day/:title/
+permalink: /:year-:month-:day-:title/
 paginate_path: /posts/:num/
 paginate: 5
 
